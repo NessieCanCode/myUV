@@ -1,14 +1,5 @@
-# myUV
-A simple python script to scrap daily uv index from U.S. Environmental Protection Agency.
+Several AWS Lambda functions to make custom API for IFTTT & LaMetric, this pulls Ultraviolet (UV) Radiation Index (UV Index) from Envirofacts Data Service API which is U.S. Environmental Protection Agency (EPA)
 
-Python 3.9 and Requests Package
+This function requires a free API key from AirNow which can be requested here [link](https://www.epa.gov/enviro/web-services).
 
-Usage Format
-main.py zip_code
-
-## Personal project turned AWS Lambda / API Gateway.
-
-Change branch to aws-lambda for current branch and usage.
-
-First App to use API
-https://apps.lametric.com/apps/myuv/12390
+using AWS Lambda = Python 3.9 and custom layer (Python Package: Requests)
