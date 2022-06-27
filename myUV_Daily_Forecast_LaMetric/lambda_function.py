@@ -28,7 +28,7 @@ def lambda_handler(event, context):
     elif uv_index in range(7, 11):
         uv_icon = 37952
         uv_recommend="Protection against sun damage is needed. If you need to be outside during midday hours between 10 a.m. and 4 p.m., take steps to reduce sun exposure. A shirt, hat and sunscreen are a must, and be sure you seek shade. Beachgoers should know that white sand and other bright surfaces reflect UV and can double UV exposure."
-    elif uv_index >= 11:
+    elif int(uv_index) >= 11:
         uv_icon = 37953
         uv_recommend="Protection against sun damage is needed. If you need to be outside during midday hours between 10 a.m. and 4 p.m., take steps to reduce sun exposure. A shirt, hat and sunscreen are a must, and be sure you seek shade. Beachgoers should know that white sand and other bright surfaces reflect UV and can double UV exposure."
     else:
